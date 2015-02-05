@@ -1,0 +1,11 @@
+{
+  "name": "objjs",
+  "version": "0.1.0",
+  "homepage": "https://github.com/ShaneGH/objjs",
+  "authors": [
+    "Shane Connon <shane.connon@gmail.com>"
+  ],
+  "description": "Simple oo for javascript",
+  "main": "release/objjs-0.1.0.js",
+  "license": "MIT"
+}
