@@ -6,6 +6,6 @@
     "Shane Connon <shane.connon@gmail.com>"
   ],
   "description": "Simple oo for javascript",
-  "main": "release/objjs-0.1.0.js",
+  "main": ["release/objjs-0.1.0.debug.js", "release/objjs-0.1.0.js"],
   "license": "MIT"
 }
