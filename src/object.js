@@ -149,8 +149,6 @@ object.extend = function (childClass) {
 	return childClass.constructor;
 };
 
-//TODO: test
-//TODO: integrate into _super
 object.getInheritanceChain = function(forClass) {
 	var chain = [];
 		
