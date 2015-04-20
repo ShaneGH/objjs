@@ -7,7 +7,7 @@ module("orienteer", {
 });
 
 function setup() {
-    var child1 = orienteer.object.extend(function (input1) {
+    var child1 = orienteer.extend(function (input1) {
         this._super();
         
         this.input1 = input1;
@@ -68,13 +68,13 @@ test("getInheritanceChain", function () {
     var children = setup();
     
     // act
-    var chain = orienteer.object.getInheritanceChain(children.child3);
+    var chain = orienteer.getInheritanceChain(children.child3);
     
     // assert
     strictEqual(chain.length, 5);
     strictEqual(chain[0], children.child3);
     strictEqual(chain[1], children.child2);
     strictEqual(chain[2], children.child1);
-    strictEqual(chain[3], orienteer.object);
+    strictEqual(chain[3], orienteer);
     strictEqual(chain[4], Object);
 });
