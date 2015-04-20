@@ -1,11 +1,11 @@
 {
-  "name": "objjs",
+  "name": "orienteer",
   "version": "0.1.0",
-  "homepage": "https://github.com/ShaneGH/objjs",
+  "homepage": "https://github.com/ShaneGH/orienteer",
   "authors": [
     "Shane Connon <shane.connon@gmail.com>"
   ],
   "description": "Simple oo for javascript",
-  "main": ["release/objjs-0.1.0.debug.js", "release/objjs-0.1.0.js"],
+  "main": ["release/orienteer-0.1.0.debug.js", "release/orienteer-0.1.0.js"],
   "license": "MIT"
 }

@@ -2,9 +2,9 @@
 // (c) Shane Connon 2015
 // http://www.opensource.org/licenses/mit-license.php
 (function () {
-	var objjs = {}
+	var orienteer = {}
 
-var object = objjs.object = function object() {
+var object = orienteer.object = function object() {
 	///<summary>The object class is the base class for all objects. It has base functionality for inheritance and parent methods</summary>
 };
 
@@ -169,5 +169,5 @@ object.getInheritanceChain = function(forClass) {
 };
 
 
-    window.objjs = objjs;
+    window.orienteer = orienteer;
 }());

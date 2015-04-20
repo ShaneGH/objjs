@@ -1,3 +1,3 @@
 
-    window.objjs = objjs;
+    window.orienteer = orienteer;
 }());

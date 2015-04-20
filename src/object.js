@@ -1,4 +1,4 @@
-var object = objjs.object = function object() {
+var object = orienteer.object = function object() {
 	///<summary>The object class is the base class for all objects. It has base functionality for inheritance and parent methods</summary>
 };
 
