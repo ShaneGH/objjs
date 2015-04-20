@@ -2,7 +2,7 @@
 // (c) Shane Connon 2015
 // http://www.opensource.org/licenses/mit-license.php
 (function () {
-    window.objjs = {};
+	var objjs = {}
 
 var object = objjs.object = function object() {
 	///<summary>The object class is the base class for all objects. It has base functionality for inheritance and parent methods</summary>
@@ -155,8 +155,6 @@ object.extend = function (childClass) {
 	return childClass.constructor;
 };
 
-//TODO: test
-//TODO: integrate into _super
 object.getInheritanceChain = function(forClass) {
 	var chain = [];
 		
@@ -170,4 +168,6 @@ object.getInheritanceChain = function(forClass) {
 	return chain;
 };
 
+
+    window.objjs = objjs;
 }());
