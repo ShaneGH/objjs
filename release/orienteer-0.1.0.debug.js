@@ -1,4 +1,4 @@
-// objJs v0.1.0
+// orienteer v0.1.0
 // (c) Shane Connon 2015
 // http://www.opensource.org/licenses/mit-license.php
 (function () {
