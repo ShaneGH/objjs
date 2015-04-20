@@ -7,7 +7,7 @@ var cachedSuperMethods = {
 	children:[]
 };
 
-orienteer.clearVirtualCache = function(forMethod /*optional*/) {
+orienteer.clearVirtualCache = function(forMethod) {
 	///<summary>Lookup results for _super methods are cached. This could cause problems in the rare cases when a class prototype is altered after one of its methods are called. Clearing the cache will solve this</summary>
 	///<param name="forMethod" type="Function" optional="true">A method to clear from the cache</param>
 	
@@ -150,6 +150,10 @@ orienteer.extend = function (childClass) {
 };
 
 orienteer.getInheritanceChain = function(forClass) {
+	///<summary>Find all of the ancestors for the class in question</summary>
+	///<param name="forClass" type="Function">The class</param>
+	///<returns type="[Function]">The ancestors</returns>
+	
 	var chain = [];
 		
 	while (forClass) {            
