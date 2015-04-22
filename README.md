@@ -33,14 +33,15 @@ var myClass2 = myClass1.extend(function () {
  myClass2.prototype.sayHi = function () {
  	return this._super() + " Hi from class 2.";
  }
- 
- 
+  
+ // logs: "Hi from class 1. Hi from class 2."
  console.log(new myClass2().sayHi());
 
 /*
  * List an entire ancestor chain with getInheritanceChain
  */
  
+ // logs: [myClass2, myClass1, orienteer, Object]
  console.log(orienteer.getInheritanceChain(myClass2));
  
  ```
