@@ -45,10 +45,10 @@ module.exports = function(grunt) {
             release: {
                 files: [{
                     src: debugFile, 
-                    dest: 'release/<%= pkg.name %>-<%= pkg.version %>.debug.js'
+                    dest: 'build/<%= pkg.name %>-<%= pkg.version %>.debug.js'
                 }, {
                     src: minFile, 
-                    dest: 'release/<%= pkg.name %>-<%= pkg.version %>.js'
+                    dest: 'build/<%= pkg.name %>-<%= pkg.version %>.js'
                 }],
             }
         }
