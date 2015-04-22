@@ -47,4 +47,4 @@ var myClass2 = myClass1.extend(function () {
 
 ####Things to note
 * Learn about object oriented programming here: http://en.wikipedia.org/wiki/Object-oriented_programming
-* Orienteer does not support private or protetected members. Javascript does not support this paradigm and forcing it to (via module patterns etc...) is resource intensive. Use notation instead, for instance you may wish to prefix private properties with a "__" to let other developers know they should not use these values
+* Orienteer does not support private or protetected members. Javascript does not support this paradigm and forcing it to (via module patterns etc...) is resource intensive and breaks the prototype chain which orienteer depends on. Use notation instead, for instance you may wish to prefix private properties with a "__" to let other developers know they should not use these values
