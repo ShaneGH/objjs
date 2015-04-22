@@ -14,3 +14,4 @@ Run the "grunt watch" command
 # to do a release
 1.  Alter the version number in package.json
 2.  Use "grunt release"
+3.	Do a release via github and attach the files generated in build/

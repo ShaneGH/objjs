@@ -6,6 +6,6 @@
     "Shane Connon <shane.connon@gmail.com>"
   ],
   "description": "Simple oo for javascript",
-  "main": ["release/orienteer-0.1.0.debug.js", "release/orienteer-0.1.0.js"],
+  "main": ["orienteer-0.1.0.debug.js", "orienteer-0.1.0.js"],
   "license": "MIT"
 }
